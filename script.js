@@ -18,7 +18,7 @@ downloadButton.addEventListener('click',() =>{
     const outputText = document.getElementById('output-text').value;
     const texarea =  document.querySelector("output-text")
     if(outputText === ""){
-        alert("sory your text file is empty")
+        alert("sorry your text file is empty")
     }
     else{
         const blob = new Blob([outputText],{type: "text/plain"})
